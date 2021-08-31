@@ -1,0 +1,52 @@
+.work {
+    .nav-img {
+        padding: 50px 90px 90px 90px;
+
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+
+            li a {
+                color: #a5abbb;
+                font-size: 18px;
+                font-weight: 900;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            .active {
+                color: $primary-color;
+            }
+        }
+    }
+
+    &-item {
+        &_img {
+            height: 280px;
+            background-color: $primary-color;
+            text-align: center;
+            line-height: 280px;
+            font-size: 56px;
+            color: #fff;
+        }
+
+        &_textbox {
+            .title {
+                font-size: 24px;
+                font-weight: 900;
+                color: $primary-color;
+                padding-top: 17px;
+                padding-bottom: 5px;
+            }
+
+            .span {
+                color: #a5abbb;
+                padding-bottom: 40px;
+            }
+        }
+    }
+
+}

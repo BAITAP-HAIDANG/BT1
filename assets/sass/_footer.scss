@@ -1,0 +1,135 @@
+.footer {
+    &-top {
+        height: 250px;
+        background-color: $primary-color;
+        padding-top: 30px;
+        text-align: center;
+
+        .title {
+            font-size: 24px;
+            font-weight: 900;
+            color: #fff;
+        }
+
+        .span {
+            color: #b5b8c4;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: -1px;
+        }
+
+    }
+
+    &-bot {
+        height: 80px;
+        background-color: #485270;
+    }
+
+    &-left {
+        img {
+            margin: 0 auto;
+            padding-bottom: 15px;
+        }
+
+        .outline {
+            display: block;
+            background-color: $primary-color;
+            width: 136px;
+            height: 36px;
+            border: 1px solid #424d6c;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 35px;
+            font-weight: 900;
+            border: 2px solid #424d6c;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+
+    &-center {
+        .span {
+            margin-top: 15px;
+        }
+
+        .non-outline {
+            display: block;
+            background-color: #7cdf95;
+            width: 136px;
+            height: 36px;
+            border: 1px solid #424d6c;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 35px;
+            font-weight: 900;
+            border: 2px solid #424d6c;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+
+    &-right {
+        .title {
+            margin-bottom: 15px;
+        }
+
+        .gmail,
+        .phone {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #c5c8d2;
+            margin-bottom: 10px;
+
+            ion-icon {
+                font-size: 24px;
+                --ionicon-stroke-width: 46px;
+            }
+
+            p {
+                margin-bottom: 0;
+                margin-left: 15px;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+        }
+
+        .icon {
+            color: #efeff0;
+            font-size: 36px;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+
+    &-copyright {
+        font-size: 14px;
+        font-weight: 400;
+        color: #a5abbb;
+        line-height: 80px;
+    }
+
+    &-nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin-bottom: 0;
+
+            li a {
+                display: block;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 900;
+                margin: 0px 20px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

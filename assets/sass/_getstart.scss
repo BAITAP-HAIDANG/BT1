@@ -1,0 +1,40 @@
+.getstart {
+    background-color: $primary-color;
+    margin-top: 65px;
+    &-textbox {
+        padding: 45px 0px;
+
+        .title {
+            font-size: 24px;
+            font-weight: 900;
+            color: #fff;
+        }
+
+        .span {
+            color: #a5abbb;
+
+        }
+    }
+
+    &-btn {
+        display: flex;
+        a {
+            display: block;
+            background-color: $primary-color;
+            width: 136px;
+            height: 36px;
+            border: 1px solid #424d6c;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 36px;
+            font-weight: 900;
+            
+        }
+
+        .non-outline {
+            background-color: #7cdf95;
+            margin-left: 18px;
+        }
+    }
+}

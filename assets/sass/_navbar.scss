@@ -1,0 +1,26 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: $secondary-color;
+    z-index: 99;
+    box-shadow: 2px 2px 5px rgba(31, 31, 31, 0.164);
+    .navs {
+        padding: 0;
+        height: 80px;
+        justify-content: space-between;
+
+        &-logo {
+            width: 114px;
+        }
+
+        &-links {
+            text-transform: uppercase;
+            font-weight: 900;
+
+            a {
+                color: $primary-color;
+                padding: 0px 20px !important;
+            }
+        }
+    }
+}

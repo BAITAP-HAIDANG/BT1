@@ -1,0 +1,40 @@
+.subscribe {
+    background-color: $primary-color;
+    height: 120px;
+
+    .title {
+        font-size: 24px;
+        font-weight: 900;
+        color: #fff;
+        line-height: 120px;
+    }
+
+    &-form {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &-input {
+        max-width: 300px;
+        height: 35px;
+        border-radius: 0px;
+        border: 2px solid #424d6c;
+
+        &::placeholder {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    &-btn {
+        width: 136px;
+        height: 35px;
+        border: 2px solid #424d6c;
+        background-color: #7cdf95;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+}

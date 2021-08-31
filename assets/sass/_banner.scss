@@ -1,0 +1,43 @@
+.banner {
+    background-color: $primary-color;
+
+    &-left {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 900;
+            color: rgb(255, 255, 255);
+        }
+
+        p {
+            font-weight: 300;
+            color: #a5abbb;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            width: 136px;
+            height: 36px;
+            line-height: 36px;
+            text-transform: uppercase;
+            background-color: #7cdf95;
+            color: #fff;
+            border: 1px solid #424d6c;
+            font-weight: 900;
+            transition: all .4s linear;
+            &:hover {
+                text-decoration: none;
+                background-color: #5eaf72;
+                
+            }
+        }
+    }
+
+    &-right {
+        display: flex;
+        justify-content: center;
+    }
+}
